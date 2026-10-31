@@ -1,0 +1,13 @@
+Command 1:
+Invoke-RestMethod -Method DELETE -Uri "http://localhost:5000/customer/auth/review/1" -Headers @{ Authorization = $token }
+
+Output:
+message
+-------
+Review successfully deleted
+
+Command 2:
+curl.exe http://localhost:5000/review/1
+
+Output:
+{}
